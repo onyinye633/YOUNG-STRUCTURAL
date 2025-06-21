@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Young Structural Limited</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./fonts/css/all.min.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo"><img src="logo.png" alt="Logo" /></div>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <i class="fa-solid fa-bars" id="menuIcon"></i>
+        <i class="fa-solid fa-xmark" id="closeIcon" style="display: none"></i>
+      </button>
+    </header>
+    <section id="home" class="home-about">
+    <div class="slideshow-container">
+      <div class="slide-title">
+        <div class="slide">
+          <img src="./window.png" alt="Image 1" />
+          <div class="slide-content">
+            <h1>Superior Quality</h1>
+            <h2>you think! we build.</h2>
+            <p>Interior.</p>
+            <button class="slide-btn">View Our Work</button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./roat3.png" alt="Image 2" />
+          <div class="slide-content">
+            <h1>Superior Quality</h1>
+            <h2>you think! we build.</h2>
+            <p>
+              Luxury office enclosures and bathroom glass installation with
+              precision craftmanship.
+            </p>
+            <button class="slide-btn">View Our Work</button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/you4.png" alt="Image 3" />
+          <div class="slide-content">
+            <h1>Superior Quality</h1>
+            <h2>you think! we build.</h2>
+            <p>
+              Creating stunning interior environments with premuim glass
+              installations and contemporary design.
+            </p>
+            <button class="slide-btn">View Our Work</button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./Mirror.png" alt="Image 4" />
+          <div class="slide-content">
+            <h1>Superior Quality</h1>
+            <h2>you think! we build.</h2>
+            <p>
+              Custom home designs featuring cutting edge architecure and premuim
+              materials
+            </p>
+            <button class="slide-btn">View Our Work</button>
+          </div>
+          <!-- Add this closing tag -->
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="dots-container">
+        <span class="dot" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+        <span class="dot" onclick="showSlide(3)"></span>
+      </div>
+    </div>
+    </section>
+    <section id="about" class="about-section">
+      <div class="ribbon-banner animate-in">
+        <span>About Us.</span>
+      </div>
+      <div class="about-video-section">
+        <div class="about-project">
+          <h2>🏠 Young Structural Limited.</h2>
+          <p>
+            Young Structural Limited is a pace setter in aluminum and steel
+            technology, delivering innovative solutions for residential,
+            commercial, and industrial spaces. We specialize in aluminum
+            windows, glass partitions, automated doors, roofing, and elegant
+            interior finishes. Our services include framed and frameless glass,
+            sky lights, railings, mirror crafting, laser-cut designs, elevator
+            systems, and more. With a blend of design, precision, and
+            craftsmanship, we bring every structural vision to life.
+          </p>
+        </div>
+        <div class="project-video">
+          <video
+            muted
+            autoplay
+            style="
+              background: #000;
+              width: 100%;
+              max-width: 600px;
+              height: 320px;
+              object-fit: cover;
+              border-radius: 8px;
+            "
+          >
+            <source src="./vide/doors.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICE SECTION -->
+    <section id="services" class="services-section-unique">
+      <h2>Our Services</h2>
+      <div class="services-unique-grid">
+        <div class="service-unique-card">
+          <div class="service-icon-bg">
+            <i class="fa-solid fa-city"></i>
+          </div>
+          <h4>Architectural Glass Structures</h4>
+          <p>
+            We create iconic glass buildings and facades that define city
+            skylines, using advanced engineering and design.
+          </p>
+          <a href="#portfolio" class="service-overlay">
+            <span>Learn More</span>
+          </a>
+        </div>
+        <div class="service-unique-card">
+          <div class="service-icon-bg">
+            <i class="fa-solid fa-house-user"></i>
+          </div>
+          <h4>Smart Residential Solutions</h4>
+          <p>
+            From panoramic windows to energy-efficient glass, we transform homes
+            into modern, light-filled spaces.
+          </p>
+          <a href="#about" class="service-overlay">
+            <span>See Projects</span>
+          </a>
+        </div>
+        <div class="service-unique-card">
+          <div class="service-icon-bg">
+            <i class="fa-solid fa-cubes"></i>
+          </div>
+          <h4>Custom Glass Interiors</h4>
+          <p>
+            Bespoke glass staircases, partitions, and balustrades for luxury
+            interiors and commercial environments.
+          </p>
+          <a href="#contact" class="service-overlay">
+            <span>Discover More</span>
+          </a>
+        </div>
+        <div class="service-unique-card">
+          <div class="service-icon-bg">
+            <i class="fa-solid fa-vials"></i>
+          </div>
+          <h4>Specialty & Technical Glass</h4>
+          <p>
+            Bulletproof, fire-rated, and acoustic glass solutions for
+            specialized architectural and industrial needs.
+          </p>
+          <a href="mailto:info@yourcompany.com" class="service-overlay">
+            <span>Contact Us</span>
+          </a>
+        </div>
+        <div class="service-unique-card">
+          <div class="service-icon-bg">
+            <i class="fa-solid fa-door-open"></i>
+          </div>
+          <h4>Glass Doors & Partitions</h4>
+          <p>
+            Elegant glass doors and partitions for offices, homes, and
+            commercial spaces, combining style and functionality.
+          </p>
+          <a href="#services" class="service-overlay">
+            <span>Explore</span>
+          </a>
+        </div>
+        <div class="service-unique-card">
+          <div class="service-icon-bg">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <h4>Mirror & Decorative Glass</h4>
+          <p>
+            Custom mirrors and decorative glass solutions to enhance the beauty
+            and brightness of any space.
+          </p>
+          <a href="#portfolio" class="service-overlay">
+            <span>View Gallery</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="about-section">
+      <div class="ribbon-banner animate-in">
+        <span> Our Portfolio.</span>
+      </div>
+      <div class="image-card-set">
+        <div class="image-card active">
+          <img src="./images/roof1.png" alt="Description 1" />
+          <div class="image-info">
+            <h4>Aluminum Roof</h4>
+            <p>We deliver strong, reliable roofing with style.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="./images/roof2.png" alt="Description 2" />
+          <div class="image-info">
+            <h4>Aluminum Window</h4>
+            <p>Providing smart, modern aluminum window installations.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="./images/roof3.png" alt="Description 3" />
+          <div class="image-info">
+            <h4>Office Partitioning</h4>
+            <p>We design and install stylish office partitions..</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="./images/stair.png" alt="Description 4" />
+          <div class="image-info">
+            <h4>Stairs Railing</h4>
+            <p>We craft safe, stylish stair railings professionally..</p>
+          </div>
+        </div>
+
+        <div class="image-card">
+          <img src="./roat2.png" alt="Description 6" />
+          <div class="image-info">
+            <h4>Balcony Railings</h4>
+            <p>We install clear, elegant glass balcony railings.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="./roat3.png" alt="Description 7" />
+          <div class="image-info">
+            <h4>Sky Light</h4>
+            <p>We elevate your roof with clear sky views.</p>
+          </div>
+        </div>
+        <div class="dots-card-container">
+          <span class="dot-card active"></span>
+          <span class="dot-card"></span>
+          <span class="dot-card"></span>
+          <span class="dot-card"></span>
+          <span class="dot-card"></span>
+          <span class="dot-card"></span>
+        </div>
+      </div>
+       <div class="multi-section-container">
+        <h1>Why Choose Young Structural?</h1>
+        <div class="multi-section" id="section-0">
+          <div class="multi-flex">
+            <img src="./vide/IMG_4807.PNG" alt="Description 1" class="multi-img" />
+            <div class="multi-text">
+              <p>🏠
+We deliver modern residential projects featuring premium aluminum windows, glass railings, and clean architectural finishes. Our team transforms design dreams into stunning, livable homes.
+                We deliver innovative aluminum and glass solutions tailored to your needs, ensuring both beauty and durability in every project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="multi-section" id="section-1" style="display:none;">
+          <div class="multi-flex">
+            <img src="./vide/IMG_4808.PNG" alt="Description 2" class="multi-img" />
+            <div class="multi-text">
+              <p> 🧱We specialize in enhancing compact residential structures with custom-fit glass solutions. On this elegant brown-brick home, we installed sleek aluminum-framed windows and balcony glass panels, adding light, style, and a modern feel to the traditional design. Whether small or large, we elevate every building with precision glazing and premium materials.</p>
+            </div> 
+          </div>
+        </div>
+        <div class="multi-section" id="section-2" style="display:none;">
+          <div class="multi-flex">
+            <img src="./vide/IMG_4809.PNG" alt="Description 3" class="multi-img" />
+            <div class="multi-text">
+              <p>
+               🏠We deliver modern residential projects featuring premium aluminum windows, glass railings, and clean architectural finishes. Our team transforms design dreams into stunning, livable homes
+            </div>
+          </div>
+        </div>
+        <div class="multi-section" id="section-3" style="display:none;">
+          <div class="multi-flex">
+            <img src="./vide/IMG_4810.PNG" alt="Description 4" class="multi-img" />
+            <div class="multi-text">
+              <p>👷🏾‍♂️
+We handle full-site construction services with a dedicated workforce, from structural framing to aluminum and glass fitting. Safety, speed, and professionalism define our work ethic on every project site.
+                Our expert team combines years of experience with modern technology for flawless installations and finishes.From scaffolding to finishing, we offer complete site services including aluminum installations, glass fittings, and structural support. Our skilled workers ensure safe, timely, and high-quality delivery every step of the way.
+
+            </div>
+          </div>
+        </div>
+        <div class="multi-section" id="section-4" style="display:none;">
+          <div class="multi-flex">
+            <img src="./vide/IMG_4811.PNG" alt="Description 5" class="multi-img" />
+            <div class="multi-text">
+              <p>
+                🏡
+We create high-end residential buildings with a seamless mix of natural brick, modern lines, and aluminum finishes. Every detail, from layout to materials, is crafted for comfort and sophistication.
+                  Our customer support is responsive and dedicated, guiding you from concept to completion.
+                We offer competitive pricing without compromising on quality or service excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="multi-section" id="section-5" style="display:none;">
+          <div class="multi-flex">
+            <img src="./vide/IMG_4812.PNG" alt="Description 6" class="multi-img" />
+            <div class="multi-text">
+              <p>
+               🛠️ 
+We craft durable and luxurious balcony railings using stainless steel and gold-finish designs. Our railings combine safety and elegance, perfect for residential and commercial buildings with a taste for class.Our team crafts standout residential spaces with polished white exteriors and golden stainless railings that add a royal touch. These homes are clean, classy, and built to impress at every glance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="multi-nav">
+          <button class="multi-prev" aria-label="Previous">&lt;</button>
+          <button class="multi-next" aria-label="Next">&gt;</button>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section id="contact" class=" contact-section">
+<h1> contact us</h1>
+<!-- Place this where you want the form to appear -->
+<div class="contact-form-container">
+  <div class="form-image">
+    <img src="pdf.png" alt="PDF" />
+  </div>
+  <form class="contact-form" action="https://formspree.io/f/mrbklpzw" method="POST">
+    <label>
+      Name:
+      <input type="text" name="name" required>
+    </label>
+    <label>
+      Surname:
+      <input type="text" name="surname" required>
+    </label>
+    <label>
+      Phone:
+      <input type="tel" name="phone" required>
+    </label>
+    <label>
+      Message:
+      <textarea name="message" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+</div>
+<footer class="main-footer">
+  <div class="footer-social">
+    <a href="https://wa.me/2349059230858" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://facebook.com/share/1AaUC1RhDi/" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://twitter.com/@Structural9334" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+     Contact Us:08108154954
+    <div class="footer-address">
+      <strong>Physical Address:</strong><br>
+     No. 4 Nsukka Land Ziks Avenue Enugu<br>
+      branch 137 agbani road,<br>
+      Enugu, Nigeria
+    
+    </div>
+  </div>
+  <div class="footer-links">
+    <div class="footer-services">
+      <strong>Our Services:</strong>
+      <ul>
+        <li><a href="#home">Home Construction</a></li>
+        <li><a href="#home">Aluminum & Glass Fitting</a></li>
+        <li><a href="#home">Balcony Railings</a></li>
+        <li><a href="#home">Project Management</a></li>
+      </ul><br>
+      Gmail:Youngstructuralcom@gmail.com
+    </div>
+    <span>&copy; 2025 Young Structural Ltd</span>
+    <a href="#">Privacy Policy</a>
+  </div>
+</footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

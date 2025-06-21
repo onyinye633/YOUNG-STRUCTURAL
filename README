@@ -1,0 +1,65 @@
+# Young Structural Limited Website
+
+This is the official website for **Young Structural Limited**, a leader in aluminum and steel technology, delivering innovative solutions for residential, commercial, and industrial spaces.
+
+## 🌟 Features
+
+- **Responsive Design:** Looks great on all devices.
+- **Slideshow Banner:** Showcases top projects and services.
+- **Services Section:** Highlights architectural glass, custom interiors, technical glass, and more.
+- **Portfolio Gallery:** Displays recent works with a 6-card layout on large screens.
+- **Contact Form:** Visitors can send messages directly (powered by Formspree).
+- **Footer:** Social links, physical address, services, and copyright.
+
+## 🚀 Getting Started
+
+1. **Clone or Download the Repository**
+   ```sh
+   git clone https://github.com/YOUR_USERNAME/young-structural.git
+   ```
+   Or download as ZIP and extract.
+
+2. **Project Structure**
+   ```
+   /young-structural
+     |-- index.html
+     |-- index.css
+     |-- index.js
+     |-- /images
+     |-- /fonts
+   ```
+
+3. **Open in Browser**
+   - Double-click `index.html` or open with your favorite browser.
+
+## 🌐 Deploying to GitHub Pages
+
+1. Push your code to a public GitHub repository.
+2. Go to **Settings > Pages** in your repo.
+3. Set the source to the `main` or `master` branch and `/root`.
+4. Your site will be live at:  
+   `https://YOUR_USERNAME.github.io/young-structural/`
+
+## 📬 Contact
+
+- **Email:** Youngstructuralcom@gmail.com
+- **WhatsApp:** [2349059230858](https://wa.me/2349059230858)
+- **Facebook:** [Young Structural Facebook](https://facebook.com/share/1AaUC1RhDi/)
+- **Twitter:** [@Structural9334](https://twitter.com/@Structural9334)
+- **Physical Address:**  
+  No. 4 Nsukka Land Ziks Avenue, Enugu  
+  Branch: 137 Agbani Road, Enugu, Nigeria
+
+## 🛠️ Technologies Used
+
+- HTML5, CSS3, JavaScript
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Formspree](https://formspree.io/) for contact form handling
+
+## 📄 License
+
+This project is for demonstration and portfolio purposes.
+
+---
+
+*Built with passion by Young Structural Limited.*
