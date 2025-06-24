@@ -333,7 +333,7 @@ body {
 .ribbon-banner {
   display: inline-block;
   position: relative;
-  background: blue;
+  background: #005fa3;
   color: black;
   padding: 10px 36px;
   font-size: 1.3em;
@@ -437,7 +437,7 @@ height: 1rem;
   padding: 32px 24px;
 }
 .about-project h2 {
-  color: gold;
+  color: black;
 }
 .about-project p {
   width: 90%;
