@@ -155,7 +155,8 @@ html {
 }
 
 .slide-content button:hover {
-  background: blue;
+  background: black;
+  color:white;
 }
 
 .slide-btn {
