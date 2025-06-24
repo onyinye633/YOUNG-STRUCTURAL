@@ -62,7 +62,7 @@ html {
 }
 
 .dot.active {
-  background-color: gold;
+  background-color: black;
 }
 
 .slide:first-child {
@@ -78,7 +78,7 @@ html {
 
 @media (max-width: 600px) {
   .slideshow-container img {
-    height: 300px; /* or 200px, adjust as needed */
+    height: 390px; /* or 200px, adjust as needed */
   }
 }
 
@@ -155,13 +155,13 @@ html {
 }
 
 .slide-content button:hover {
-  background: gold;
+  background: blue;
 }
 
 .slide-btn {
   padding: 10px 24px;
   font-size: 1em;
-  background: gold;
+  background: blue;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -170,7 +170,7 @@ html {
 }
 
 .slide-btn:hover {
-  background: gold;
+  background:blue;
 }
 
 .main-header {
@@ -212,7 +212,7 @@ body {
 }
 
 .main-nav a:hover {
-  background: gold;
+  background: blue;
   color: #fff;
 }
 
@@ -333,7 +333,7 @@ body {
 .ribbon-banner {
   display: inline-block;
   position: relative;
-  background: gold;
+  background: blue;
   color: black;
   padding: 10px 36px;
   font-size: 1.3em;
@@ -414,35 +414,9 @@ height: 1rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   z-index: 2;
 }
-.image-card img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 6px;
-  margin-bottom: 10px;
-}
 
-.dots-card-container {
-  display: none;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  margin-top: 18px;
-}
 
-.dot-card {
-  height: 12px;
-  width: 12px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-  transition: background 0.3s;
-}
 
-.dot-card.active {
-  background-color: #0078d4;
-}
 .about-video-section {
   display: flex;
   gap: 40px;
@@ -1154,7 +1128,7 @@ height: 1rem;
   }
 }
 .guarantee-section {
-  background: #f7faff;
+  background: black;
   padding: 48px 0 32px 0;
   text-align: center;
 }
