@@ -1256,3 +1256,22 @@ height: 1rem;
     text-align: center;
   }
 }
+.multi-prev,
+.multi-next {
+  border: 2px solid #0078d4;
+  border-radius: 6px;
+  background: #fff;
+  color: #0078d4;
+  font-size: 1.5em;
+  padding: 6px 18px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  margin: 0 6px;
+}
+
+.multi-prev:hover,
+.multi-next:hover {
+  background: #0078d4;
+  color: #fff;
+  border-color: #005fa3;
+}
