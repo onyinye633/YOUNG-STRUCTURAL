@@ -111,3 +111,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+// Spotlight Carousel (auto-advance, infinite)
+document.addEventListener('DOMContentLoaded', function () {
+  const slides = document.querySelectorAll('.spotlight-slide');
+  let current = 0;
+  function showSpotlight(idx) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === idx);
+    });
+  }
+  function nextSpotlight() {
+    current = (current + 1) % slides.length;
+    showSpotlight(current);
+  }
+  showSpotlight(current);
+  setInterval(nextSpotlight, 4000); // Change every 4 seconds
+});
