@@ -451,6 +451,7 @@ body {
     margin: 20px auto;
      display: flex;
   flex-direction: column;
+  font-size: 18px;
   align-content: center;
   text-align: center;
   line-height: 1.5;
@@ -683,7 +684,17 @@ body {
     margin: 20px auto;
     font-size: 18px;
     line-height: 1.5;
-    text-align: justify;
+        display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  line-height: 1.5;
+  justify-items: center;
+
+    /* 👇 Close up the spacing */
+    word-spacing: -2px;
+    letter-spacing: -0.2px;
+    /* text-align: justify; */
 
     /* 👇 Close up the spacing */
     word-spacing: -2px;
