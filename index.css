@@ -449,12 +449,15 @@ body {
   width: 90%;
     max-width: 700px;
     margin: 20px auto;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
+     display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  line-height: 1.5;
+  justify-items: center;
 
     /* 👇 Close up the spacing */
-    word-spacing: -3.4px;
+    word-spacing: -2px;
     letter-spacing: -0.2px;
 }
 .project-video {
@@ -683,7 +686,7 @@ body {
     text-align: justify;
 
     /* 👇 Close up the spacing */
-    word-spacing: -4px;
+    word-spacing: -2px;
     letter-spacing: -0.2px;
 }
 .service-unique-card:hover {
