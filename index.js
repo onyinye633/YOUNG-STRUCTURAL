@@ -127,3 +127,19 @@ document.addEventListener('DOMContentLoaded', function () {
   showSpotlight(current);
   setInterval(nextSpotlight, 4000); // Change every 4 seconds
 });
+  const revealElements = document.querySelectorAll('.scroll-reveal');
+
+  function revealOnScroll() {
+    for (let i = 0; i < revealElements.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = revealElements[i].getBoundingClientRect().top;
+
+      if (elementTop < windowHeight - 60) {
+        revealElements[i].classList.add('visible');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+

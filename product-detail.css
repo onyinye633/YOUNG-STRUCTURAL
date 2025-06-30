@@ -1,3 +1,11 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+   background: linear-gradient(-45deg,gold, white, #e8d4b0f7 );
+  background-size: 400% 400%;
+  animation: gradientFlow 15s ease infinite;
+}
 .product-summary {
   display: flex;
   align-items: center;
@@ -57,4 +65,175 @@
     max-width: 320px;
     height: 160px;
   }
+}
+.about-virtualization-section {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  background: #f7faff;
+  border-radius: 16px;
+  padding: 32px 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.about-virtualization-section h2 {
+  color: #0078d4;
+  margin-bottom: 24px;
+}
+.virtualization-carousel {
+  position: relative;
+  height: 320px;
+  margin-bottom: 18px;
+}
+.virtual-img {
+  width: 100%;
+  max-width: 400px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 1;
+}
+.virtual-img.active {
+  opacity: 1;
+  z-index: 2;
+}
+.virtual-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+.virtual-dots .dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #bbb;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.virtual-dots .dot.active {
+  background: #0078d4;
+}
+.virtual-caption {
+  color: #333;
+  font-size: 1.1em;
+  margin-top: 12px;
+}
+.project-built-by-us {
+  max-width: 1100px;
+  margin: 60px auto 40px auto;
+  padding: 36px 16px 28px 16px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,120,212,0.08);
+  text-align: center;
+}
+.project-built-by-us h2 {
+  color: #0078d4;
+  margin-bottom: 38px;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+.project-timeline {
+  position: relative; /* Add this */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  overflow-x: auto;
+  padding-bottom: 18px;
+}
+
+/* Add this for the thin line */
+.project-timeline::before {
+  content: "";
+  position: absolute;
+  top: 60px; /* Adjust to align with your images */
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0078d4 0%, #00b4d8 100%);
+  z-index: 0;
+  border-radius: 2px;
+}
+.timeline-step {
+  position: relative;
+  z-index: 1; /* Make sure steps are above the line */
+  flex: 1 1 220px;
+  min-width: 220px;
+  max-width: 240px;
+  background: #f7faff;
+  border-radius: 14px;
+  box-shadow: 0 1.5px 8px rgba(0,120,212,0.06);
+  padding: 18px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.timeline-step img {
+  width: 100%;
+  max-width: 500px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  background: #e0e7ef;
+}
+.step-caption h4 {
+  color: #0078d4;
+  margin-bottom: 6px;
+  font-size: 1.1em;
+}
+.step-caption p {
+  color: #444;
+  font-size: 0.98em;
+  margin: 0;
+}
+.timeline-note {
+  margin-top: 32px;
+  color: #0078d4;
+  font-weight: 600;
+  font-size: 1.15em;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 900px) {
+  .project-timeline {
+    gap: 18px;
+  }
+  .timeline-step {
+    min-width: 180px;
+    max-width: 200px;
+    padding: 12px 6px 8px 6px;
+  }
+  .timeline-step img {
+    max-width: 120px;
+    height: 80px;
+  }
+}
+.go-back-btn {
+  display: inline-block;
+  padding: 10px 26px;
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 24px 10px 16px 0;
+  transition: background 0.2s;
+}
+.go-back-btn:hover {
+  background: #005fa3;
 }
