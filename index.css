@@ -454,7 +454,7 @@ body {
     text-align: justify;
 
     /* 👇 Close up the spacing */
-    word-spacing: -3px;
+    word-spacing: -4px;
     letter-spacing: -0.2px;
 }
 .project-video {
@@ -683,7 +683,7 @@ body {
     text-align: justify;
 
     /* 👇 Close up the spacing */
-    word-spacing: -3px;
+    word-spacing: -4px;
     letter-spacing: -0.2px;
 }
 .service-unique-card:hover {
