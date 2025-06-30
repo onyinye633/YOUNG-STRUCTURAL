@@ -450,11 +450,11 @@ body {
     max-width: 700px;
     margin: 20px auto;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.5;
     text-align: justify;
 
     /* 👇 Close up the spacing */
-    word-spacing: -4px;
+    word-spacing: -3.4px;
     letter-spacing: -0.2px;
 }
 .project-video {
