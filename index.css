@@ -214,24 +214,28 @@ html {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 48px; /* or your header height */
+  height: 70px; /* or your header height */
   background: #fff;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
+   padding: 0 40px;        /* Add horizontal padding if needed */
+  box-sizing: border-box;
 }
 body {
   padding-top: 48px; /* match header height */
 }
 
 .logo img {
-  height: 50px;
+  height: 60px;
   max-width: 160px;
-  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.3));
-  width: auto;
-  object-fit: contain;
+  /* filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.3)); */
+  width: 70px;
+  object-fit: cover;
   background: transparent;
+   display: block;
+  margin: 0;   
 }
 .logo img:hover {
   transform: scale(1.05);
@@ -285,10 +289,15 @@ body {
     background-attachment: fixed;
     z-index: 1000;
     width: 100vw;
+    height: 70px; /* or at least 60px if your logo is 60px tall */
+    padding: 0 20px
   }
   .logo img {
-    height: 32px;
-    margin: 0;
+      height: 60px;
+  max-width: 160px;
+  width: 70px;
+  /* object-fit: cover;
+  background: transparent; */
   }
   .main-nav {
     display: none;
@@ -512,10 +521,10 @@ body {
     z-index: 1000;
     width: 100vw;
   }
-  .logo img {
+  /* .logo img {
     height: 32px;
     margin: 0;
-  }
+  } */
   .main-nav {
     display: none;
     flex-direction: column;
