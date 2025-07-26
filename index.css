@@ -1264,7 +1264,7 @@ body {
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 2px 12px rgba(0,120,212,0.08);
-  border: 2px solid #0078d4;
+  border: 2px solid gold;
   background: #fff;
 }
 .spotlight-info {
@@ -1272,7 +1272,7 @@ body {
   text-align: left;
 }
 .spotlight-info h2 {
-  color: #0078d4;
+  color: gold;
   font-size: 2em;
   margin-bottom: 12px;
 }
@@ -1284,7 +1284,7 @@ body {
 .see-details-btn {
   display: inline-block;
   padding: 10px 28px;
-  background: #0078d4;
+  background: gold;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -1294,7 +1294,7 @@ body {
   transition: background 0.2s;
 }
 .see-details-btn:hover {
-  background: #005fa3;
+  background: rgb(212, 183, 16);
 }
 @media (max-width: 700px) {
   .spotlight-slide {
