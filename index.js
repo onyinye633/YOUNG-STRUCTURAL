@@ -143,3 +143,19 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', revealOnScroll);
   window.addEventListener('load', revealOnScroll);
 
+
+
+const switcher = document.getElementById('mySwitcher');
+if (switcher) {
+  const btns = switcher.querySelectorAll('.switcher-btn');
+  const imgs = switcher.querySelectorAll('.switcher-img');
+  btns.forEach((btn, idx) => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      imgs.forEach((img, i) => {
+        img.classList.toggle('active', i === idx);
+      });
+    });
+  });
+}
