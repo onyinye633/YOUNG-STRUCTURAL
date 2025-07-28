@@ -427,16 +427,6 @@ background: rgba(255,255,255,0.08); /* almost fully transparent */
   transform: translateY(-50%) scaleX(-1);
 }
 
-@keyframes ribbonFadeIn {
-  0% {
-    /* opacity: 0; */
-    transform: translateX(40px) scale(0.95);
-  }
-  100% {
-    /* opacity: 1; */
-    transform: translateX(0) scale(1);
-  }
-}
 
 .ribbon-banner.animate-in {
   /* opacity: 0; */
