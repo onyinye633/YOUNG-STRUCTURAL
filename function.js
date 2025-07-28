@@ -1,24 +1,22 @@
+const track = document.querySelector('.carousel-track');
+const dots = document.querySelectorAll('.carousel-dots .dot');
 
-const imgs = document.querySelectorAll('.virtual-img');
-const dots = document.querySelectorAll('.virtual-dots .dot');
-let current = 0;
+if (track && dots.length) {
+  track.addEventListener('scroll', () => {
+    const slideWidth = track.offsetWidth;
+    const index = Math.round(track.scrollLeft / slideWidth);
 
-function showVirtualImg(idx) {
-  imgs.forEach((img, i) => {
-    img.classList.toggle('active', i === idx);
-    dots[i].classList.toggle('active', i === idx);
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
+  });
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      track.scrollTo({
+        left: track.offsetWidth * i,
+        behavior: 'smooth'
+      });
+    });
   });
 }
-
-dots.forEach((dot, i) => {
-  dot.addEventListener('click', () => {
-    current = i;
-    showVirtualImg(current);
-  });
-});
-
-// Optional: auto-slide every 4 seconds
-setInterval(() => {
-  current = (current + 1) % imgs.length;
-  showVirtualImg(current);
-}, 4000);
