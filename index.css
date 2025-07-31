@@ -913,8 +913,8 @@ background: rgba(255,255,255,0.08); /* almost fully transparent */
     padding-right: 16px;
   }
   .multi-img {
-    width: 200vw;
-    max-width: 390px;
+    width: 100vw;
+    max-width: 290px;
     height: 290px;
     display: block;
     margin: 0 auto;
