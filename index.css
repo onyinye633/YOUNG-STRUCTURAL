@@ -882,8 +882,24 @@ background: rgba(255,255,255,0.08); /* almost fully transparent */
     align-items: center; /* center content */
   }
   .multi-img {
-    width: 220vw;
-    max-width: 490px; /* prevents full width */
+    width: 90vw;
+    max-width: 100px; /* prevents full width */
+    height:290px;
+    display: block;
+    margin: 0 auto;
+  }
+ 
+}
+
+@media (max-width: 600px) {
+  .multi-flex {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center; /* center content */
+  }
+  .multi-img {
+    width: 90vw;
+    max-width: 100px; /* prevents full width */
     height:290px;
     display: block;
     margin: 0 auto;
@@ -897,8 +913,8 @@ background: rgba(255,255,255,0.08); /* almost fully transparent */
     padding-right: 16px;
   }
   .multi-img {
-    width: 220vw;
-    max-width: 490px;
+    width: 200vw;
+    max-width: 390px;
     height: 290px;
     display: block;
     margin: 0 auto;
