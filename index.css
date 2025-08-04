@@ -920,7 +920,6 @@ background: rgba(255,255,255,0.08); /* almost fully transparent */
     margin: 0 auto;
   }
   .multi-text{
-    font-size: small;
     overflow: hidden;
   }
 }
