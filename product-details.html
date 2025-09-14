@@ -4,58 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Young Structural Limited</title>
-    <link rel="stylesheet" href="./product-detail.css" />
+    <link rel="stylesheet" href="./product.css" />
     <link rel="stylesheet" href="./fonts/css/all.min.css" />
 </head>
 <body>
-    <!-- Product Summary Section -->
-<div class="product-summary">
-  <img src="pdf.png" alt="Construction in Progress" class="summary-img" />
-  <div class="summary-content">
-    <h1>See the Details: Our Construction Journey</h1>
+   <!-- Header -->
+  <div class="header">
+    <h1>Young Structural Limited</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+    </nav>
+  </div>
+ <!-- Intro -->
+  <section class="intro">
+    <h2>Our Projects</h2>
     <p>
-      Welcome to the heart of our project! <strong>Young Structural</strong> is all about building dreams with passion, precision, and a youthful spirit. This image captures our team—<strong>young, energetic, and dedicated</strong>—as we bring your vision to life, one beam at a time.
+      At Young Structural Limited, we take pride in delivering projects that showcase 
+      the perfect blend of strength, style, and precision.  
+      Explore some of our featured aluminium, steel, and glass works.
     </p>
-    <p>
-      From the first blueprint to the final touch, we combine modern techniques with creative flair. Our construction process is transparent, safe, and always focused on quality. With <strong>YOU</strong> at the center, and <strong>young minds</strong> leading the way, every project is a story of innovation and trust.
-    </p>
-    <button class="back-btn" onclick="window.history.back()">&#8592; Back to Portfolio</button>
-  </div>
-</div>
-<footer class="main-footer scroll-reveal">
-  <div class="footer-social">
-    <a href="https://wa.me/2349059230858" target="_blank" aria-label="WhatsApp">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="https://facebook.com/share/1AaUC1RhDi/" target="_blank" aria-label="Facebook">
-      <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://twitter.com/@Structural9334" target="_blank" aria-label="Twitter">
-      <i class="fab fa-twitter"></i>
-    </a>
-   
-  </div>
-  <div class="footer-links">
-    <div class="footer-services">
-      <strong>Our Services:</strong>
-      <ul>
-        <li><a href="#home">Home Construction</a></li>
-        <li><a href="#home">Aluminum & Glass Fitting</a></li>
-        <li><a href="#home">Balcony Railings</a></li>
-        <li><a href="#home">Project Management</a></li>
-      </ul><br>
-      Gmail:Youngstructuralcom@gmail.com
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="projects-grid">
+    <div class="project-card">
+      <img src="./views/wrk2.jpg" alt="Project 1">
+      <div class="content">
+        <h3>Corporate Glass Facade</h3>
+        <p>Installed a modern glass exterior for a high-rise commercial building.</p>
+      </div>
     </div>
-    <span>&copy; 2025 Young Structural Ltd</span>
-    <a href="#">Privacy Policy</a>
-  </div>
-   <div class="footer-address">
-      <strong>Physical Address:</strong><br>
-     No. 4 Nsukka Lane Zik's Avenue Enugu<br>
-      branch 137 agbani road,<br>
-      Enugu, Nigeria
-    
+    <div class="project-card">
+      <img src="./views/code4.jpeg" alt="Project 2">
+      <div class="content">
+        <h3>Steel Structural Frame</h3>
+        <p>Designed and fabricated a strong steel framework for an industrial warehouse.</p>
+      </div>
     </div>
-</footer>
+    <div class="project-card">
+      <img src="./views/code5.jpeg" alt="Project 3">
+      <div class="content">
+        <h3>Aluminium Windows</h3>
+        <p>Supplied and installed durable aluminium windows for a housing estate.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="./views/code7.jpeg" alt="Project 4">
+      <div class="content">
+        <h3> Estate Gate</h3>
+        <p>Stylish and secure glass railing installation for luxury apartments.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="./views/code6.jpeg" alt="Project 4">
+      <div class="content">
+        <h3>Duplex House</h3>
+        <p>Stylish and secure glass railing installation for luxury apartments.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="./views/wrk11.jpg" alt="Project 4">
+      <div class="content">
+        <h3>Glass Railings</h3>
+        <p>Stylish and secure glass railing installation for luxury apartments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Have a Project in Mind?</h2>
+    <a href="contact.html" class="btn">Contact Us Today</a>
+  </section>
+<footer>
+    <div class="footer-container">
+      <!-- Logo and About -->
+      <div class="footer-logo">
+        <h2> Young Structural Limited</h2>
+        <p>Young Structural Limited is committed to delivering quality structural solutions with innovation and integrity.</p>
+      </div>
+
+      <!-- About Company -->
+      <div class="footer about">
+        <h3>About Us</h3>
+        <p>We specialize in structural designs, project management, and construction services tailored to meet modern needs.</p>
+      </div>
+
+      <!-- Get in Touch -->
+      <div class="footer contact">
+        <h3>Get in Touch</h3>
+        <ul>
+          <li>Email: <a href="mailto:info@young-structural.com.ng">Youngstructuralcom@gmail.com</a></li>
+          <li>Phone: +234 905 928 0858</li>
+          <li>Address: No 4 Nsukka lane Ziks Avenue Enugu </li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./product-details.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer social">
+        <h3>Follow Us</h3>
+       <div class="social-icons">
+          <a href="https://facebook.com/share/1AaUC1RhDi/"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/@Structural9334"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 Young Structural Limited. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  
 </body>
 </html>

@@ -12,17 +12,17 @@
       <div class="logo"><img src="./bglogo.png" alt="Logo" /></div>
       <nav class="main-nav" id="mainNav">
         <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="./about.html">About</a>
+        <a href="./service.html">Services</a>
+        <a href="./product-details.html">projects</a>
+        <a href="./contact.html">Contact</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
         <i class="fa-solid fa-bars" id="menuIcon"></i>
         <i class="fa-solid fa-xmark" id="closeIcon" style="display: none"></i>
       </button>
     </header>
-    <section id="home" class="home-about ">
+    <section class="home-about ">
     <div class="slideshow-container">
       <div class="slide-title">
         <div class="slide">
@@ -82,52 +82,26 @@
       </div>
     </div>
     </section>
-    <section id="about" class="about-section scroll-reveal">
-      <div class="ribbon-banner animate-in">
-        <span>About Us.</span>
-      </div>
-      <div class="about-video-section">
-        <div class="about-project">
-  <h2>🏗️ Young Structural Limited.</h2>
-  <p>
-    Young Structural Limited is a pace setter in aluminum and steel technology,
-    delivering innovative solutions for residential, commercial, and industrial spaces.
-  </p>
-  <p>
-    We specialize in aluminum windows, glass partitions, automated doors, roofing, and elegant interior finishes.
-  </p>
-  <p>
-    Our services include framed and frameless glass, skylights, railings, mirror crafting,
-    laser-cut designs, elevator systems, and more.
-  </p>
-  <p>
-    With a blend of design, precision, and craftsmanship, we bring every structural vision to life.
-  </p>
 
-        </div>
-        <div class="project-video">
-          <video
-            muted
-            autoplay
-            loop
-            style="
-              background: #000;
-              width: 100%;
-              max-width: 600px;
-              height: 350px;
-              object-fit: cover;
-              border-radius: 8px;
-            "
-          >
-            <source src="./vide/doors.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </section>
+     <section class="responsive-carousel scroll-reveal">
+    <h3>  Young Structural Aluminum and steel company Limited</h3>
+  <div class="carousel-track">
+    
+    <div class="carousel-card"><img src="/views/code1.jpg" alt="Image 1" /></div>
+    <div class="carousel-card"><img src="./views/code2.jpg" alt="Image 2" /></div>
+    <div class="carousel-card"><img src="./spot6.jpg" alt="Image 3" /></div>
+  </div>
+
+  <div class="carousel-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
     <!-- SERVICE SECTION -->
-    <section id="services" class="services-section-unique scroll-reveal ">
-      <h2>Our Services</h2>
+    <section class="services-section-unique scroll-reveal ">
+      <h2>Our Expertise</h2>
       <div class="services-unique-grid">
         <div class="service-unique-card">
           <div class="service-icon-bg">
@@ -151,7 +125,7 @@
             From panoramic windows to energy-efficient glass, we transform homes
             into modern, light-filled spaces.
           </p>
-          <a href="about.html" class="service-overlay">
+          <a href="./product-details.html" class="service-overlay">
             <span>See Projects</span>
           </a>
         </div>
@@ -177,7 +151,7 @@
             Bulletproof, fire-rated, and acoustic glass solutions for
             specialized architectural and industrial needs.
           </p>
-          <a href="#contact" class="service-overlay">
+          <a href="./contact.html" class="service-overlay">
             <span>Contact Us</span>
           </a>
         </div>
@@ -203,8 +177,8 @@
             Custom mirrors and decorative glass solutions to enhance the beauty
             and brightness of any space.
           </p>
-          <a href="#portfolio" class="service-overlay">
-            <span>View Gallery</span>
+          <a href="./service.html" class="service-overlay">
+            <span>View our service</span>
           </a>
         </div>
       </div>
@@ -221,9 +195,10 @@
   </div>
     <!-- PORTFOLIO SECTION -->
     <section id="portfolio" class="about-section scroll-reveal">
-      <div class="ribbon-banner animate-in">
+      <h1> SUPERIOR DESIGNS AND QUALITY</h1>
+      <!-- <div class="ribbon-banner animate-in">
         <span> Our Portfolio.</span>
-      </div>  
+      </div>   -->
       <div class="heading-image-switcher" id="mySwitcher">
   <div class="switcher-headings">
     <button data-index="0" class="switcher-btn active">Quality</button>
@@ -233,7 +208,7 @@
   <div class="switcher-images">
     <img src="./spot7.jpg" class="switcher-img" alt="Luxury" />
     <img src="./new3.jpg" class="switcher-img active" alt="Quality" />
-    <img src="./views/wrk11.jpg" class="switcher-img" alt="Design" />
+    <img src="./new5.jpg" class="switcher-img" alt="Design" />
   </div>
 </div>
   <div class="spotlight-carousel">
@@ -329,7 +304,7 @@
   </div>
 </div>
  <section class="responsive-carousel">
-  <h2>Our Project from initialization to completion</h2>
+  <h2>Our Recent Project</h2>
 
   <div class="carousel-track">
     <div class="carousel-card"><img src="/views/img5.jpg" alt="Image 1" /></div>
@@ -343,14 +318,39 @@
     <span class="dot"></span>
   </div>
 </section>
+ <!-- Our Guarantee Section -->
+<div class="guarantee-section scroll-reveal">
+  <h2>Our Guarantee</h2>
+  <div class="guarantee-list">
+    <div class="guarantee-item">
+      <i class="fa-solid fa-shield-halved"></i>
+      <h4>Quality Materials</h4>
+      <p>We use only premium, certified materials for every project.</p>
+    </div>
+    <div class="guarantee-item">
+      <i class="fa-solid fa-user-shield"></i>
+      <h4>Expert Craftsmanship</h4>
+      <p>Our skilled team delivers precise, professional results every time.</p>
+    </div>
+    <div class="guarantee-item">
+      <i class="fa-solid fa-clock"></i>
+      <h4>On-Time Delivery</h4>
+      <p>We complete projects on schedule, every time—guaranteed.</p>
+    </div>
+    <div class="guarantee-item">
+      <i class="fa-solid fa-thumbs-up"></i>
+      <h4>Customer Satisfaction</h4>
+      <p>Your happiness is our top priority. We stand by our work.</p>
+    </div>
+  </div>
+</div>
        <div class="multi-section-container scroll-reveal">
-        <h1> Some Of Our project</h1>
+        <h1> Some Of Our Projects</h1>
         <div class="multi-section" id="section-0">
           <div class="multi-flex">
             <img src="./vide/IMG_4807.PNG" alt="Description 1" class="multi-img" />
             <div class="multi-text">
-             We deliver modern residential projects featuring premium aluminum windows, glass railings, and clean architectural finishes. Our team transforms design dreams into stunning, livable homes.
-                We deliver innovative aluminum and glass solutions tailored to your needs.
+     We handle full-site construction services with a dedicated workforce, from structural framing to aluminum and glass fitting. Safety, speed, and professionalism define our work ethic on every project site.
             </div>
           </div>
         </div>
@@ -358,7 +358,7 @@
           <div class="multi-flex">
             <img src="./vide/IMG_4808.PNG" alt="Description 2" class="multi-img" />
             <div class="multi-text">
-            We create high-end residential buildings with a seamless mix of natural brick, modern lines, and aluminum finishes. Every detail, from layout to materials, is crafted for comfort and sophistication. Our customer support is responsive and dedicated, guiding you from concept to completion.
+           We handle full-site construction services with a dedicated workforce, from structural framing to aluminum and glass fitting. Safety, speed, and professionalism define our work ethic on every project site.
             </div> 
           </div>
         </div>
@@ -366,7 +366,7 @@
           <div class="multi-flex">
             <img src="./vide/IMG_4809.PNG" alt="Description 3" class="multi-img" />
             <div class="multi-text">
-          We specialize in enhancing compact residential structures with custom-fit glass solutions. On this elegant brown-brick home, we installed sleek aluminum-framed windows and balcony glass panels, adding light, style, and a modern feel to the traditional design.
+          We handle full-site construction services with a dedicated workforce, from structural framing to aluminum and glass fitting. Safety, speed, and professionalism define our work ethic on every project site.
             </div>
           </div>
         </div>
@@ -374,7 +374,7 @@
           <div class="multi-flex">
             <img src="./vide/IMG_4810.PNG" alt="Description 4" class="multi-img" />
             <div class="multi-text">
-       We deliver modern residential projects featuring premium aluminum windows, glass railings, and clean architectural finishes. Our team transforms design dreams into stunning, livable homes
+      We handle full-site construction services with a dedicated workforce, from structural framing to aluminum and glass fitting. Safety, speed, and professionalism define our work ethic on every project site.
             </div>
           </div>
         </div>
@@ -401,96 +401,62 @@
       </div>
     </section>
   </section>
+<footer>
+    <div class="footer-container">
+      <!-- Logo and About -->
+      <div class="footer-logo">
+        <h2> Young Structural Limited</h2>
+        <p>Young Structural Limited is committed to delivering quality structural solutions with innovation and integrity.</p>
+      </div>
 
-    <!-- Our Guarantee Section -->
-<div class="guarantee-section scroll-reveal">
-  <h2>Our Guarantee</h2>
-  <div class="guarantee-list">
-    <div class="guarantee-item">
-      <i class="fa-solid fa-shield-halved"></i>
-      <h4>Quality Materials</h4>
-      <p>We use only premium, certified materials for every project.</p>
-    </div>
-    <div class="guarantee-item">
-      <i class="fa-solid fa-user-shield"></i>
-      <h4>Expert Craftsmanship</h4>
-      <p>Our skilled team delivers precise, professional results every time.</p>
-    </div>
-    <div class="guarantee-item">
-      <i class="fa-solid fa-clock"></i>
-      <h4>On-Time Delivery</h4>
-      <p>We complete projects on schedule, every time—guaranteed.</p>
-    </div>
-    <div class="guarantee-item">
-      <i class="fa-solid fa-thumbs-up"></i>
-      <h4>Customer Satisfaction</h4>
-      <p>Your happiness is our top priority. We stand by our work.</p>
-    </div>
-  </div>
-</div>
- <section id="contact" class=" contact-section scroll-reveal">
-<h1> contact us</h1>
-<!-- Place this where you want the form to appear -->
-<div class="contact-form-container scroll-reveal">
-  <div class="form-image">
-    <img src="pdf.png" alt="PDF" />
-  </div>
-  <form class="contact-form" action="https://formspree.io/f/mrbklpzw" method="POST">
-    <label>
-      Name:
-      <input type="text" name="name" required>
-    </label>
-    <label>
-      Surname:
-      <input type="text" name="surname" required>
-    </label>
-    <label>
-      Phone Number:
-      <input type="tel" name="phone" required>
-    </label>
-    <label>
-      Message:
-      <textarea name="message" required></textarea>
-    </label>
-    <button type="submit">Send</button>
-  </form>
-</div>
-</section>
+      <!-- About Company -->
+      <div class="footer about">
+        <h3>About Us</h3>
+        <p>We specialize in structural designs, project management, and construction services tailored to meet modern needs.</p>
+      </div>
 
-<footer class="main-footer scroll-reveal">
-  <div class="footer-social">
-    <a href="https://wa.me/2349059230858" target="_blank" aria-label="WhatsApp">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="https://facebook.com/share/1AaUC1RhDi/" target="_blank" aria-label="Facebook">
-      <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://twitter.com/@Structural9334" target="_blank" aria-label="Twitter">
-      <i class="fab fa-twitter"></i>
-    </a>
-   
-  </div>
-  <div class="footer-links">
-    <div class="footer-services">
-      <strong>Our Services:</strong>
-      <ul>
-        <li><a href="#home">Home Construction</a></li>
-        <li><a href="#home">Aluminum & Glass Fitting</a></li>
-        <li><a href="#home">Balcony Railings</a></li>
-        <li><a href="#home">Project Management</a></li>
-      </ul><br>
-      Gmail:Youngstructuralcom@gmail.com
+      <!-- Get in Touch -->
+      <div class="footer contact">
+        <h3>Get in Touch</h3>
+        <ul>
+          <li>Email: <a href="mailto:info@young-structural.com.ng">Youngstructuralcom@gmail.com</a></li>
+          <li>Phone: +234 905 928 0858</li>
+          <li>Address: No 4 Nsukka lane Ziks Avenue Enugu </li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="footer social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com/share/1AaUC1RhDi/"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com/@Structural9334"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
     </div>
-    <span>&copy; 2025 Young Structural Ltd</span>
-    <a href="#">Privacy Policy</a>
-  </div>
-   <div class="footer-address">
-      <strong>Physical Address:</strong><br>
-     No. 4 Nsukka Lane Zik's Avenue Enugu<br>
-      branch 137 agbani road,<br>
-      Enugu, Nigeria
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 Young Structural Limited. All Rights Reserved.</p>
     </div>
-</footer>
+  </footer>
+
+
+
     <script src="./index.js"></script>
   </body>
 </html>

@@ -1,0 +1,168 @@
+ * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: Arial, sans-serif; background: #f9f9f9; color: #333; line-height: 1.6;}
+ /* Header */
+    .header {
+      box-sizing: border-box;
+  background: rgba(255,255,255,0.08); /* almost fully transparent */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px); /* For Safari */
+  border-bottom: 1.5px solid rgba(0,120,212,0.10);
+      color:black;
+      padding: 15px 40px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+    }
+    .header h1 {font-size: 1.5rem;}
+    .header nav a {
+      color: black; 
+      margin-left: 20px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      transition: 0.3s;
+    }
+    .header nav a:hover {color: #00b4d8;}
+    .header nav a.active {
+      color: #00b4d8;
+      border-bottom: 2px solid #00b4d8;
+      padding-bottom: 2px;
+    }
+
+    /* Header */
+    .site-header {
+      background: #023e8a; 
+      color: #fff;
+      padding: 15px 40px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+    }
+    .site-header h1 {font-size: 1.5rem;}
+    .site-header nav a {
+      color: #fff; 
+      margin-left: 20px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      transition: 0.3s;
+    }
+    .site-header nav a:hover {color: #00b4d8;}
+    .site-header nav a.active {
+      color: #00b4d8;
+      border-bottom: 2px solid #00b4d8;
+      padding-bottom: 2px;
+    }
+
+    /* Intro */
+    .intro {
+      text-align: center; 
+      padding: 60px 20px; 
+      background: #fff;
+    }
+    .intro h2 {font-size: 2.5rem; margin-bottom: 15px; color: black;}
+    .intro p {font-size: 1.2rem; color: #555; max-width: 700px; margin: auto;}
+
+    /* Projects Grid */
+    .projects-grid {
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+      gap: 20px; 
+      padding: 40px;
+    }
+    .project-card {
+      background: #fff; 
+      border-radius: 12px; 
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,.1); 
+      transition: 0.3s;
+      position: relative;
+    }
+    .project-card:hover {transform: translateY(-6px);}
+    .project-card img {
+      width: 100%; 
+      height: 220px; 
+      object-fit: cover; 
+      display: block;
+    }
+    .project-card .content {
+      padding: 20px;
+    }
+    .project-card h3 {margin-bottom: 10px; color: black;}
+    .project-card p {color: #555; font-size: 0.95rem;}
+
+    /* CTA Section */
+    .cta {
+      text-align: center; 
+      padding: 60px 20px; 
+      background: gold; 
+      color: #fff;
+    }
+    .cta h2 {font-size: 2rem; margin-bottom: 20px;}
+    .cta .btn {
+      background: black; 
+      color: #fff; 
+      padding: 12px 30px; 
+      border-radius: 25px; 
+      font-weight: bold; 
+      text-decoration: none; 
+      transition: 0.3s;
+    }
+    .cta .btn:hover {background: #0095c79b;}
+
+   
+footer {
+      background: #111;
+      color: #ddd;
+      padding: 40px 20px;
+    }
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .footer-logo img {
+      width: 150px;
+      margin-bottom: 15px;
+    }
+    .footer-logo p {
+      font-size: 14px;
+      color: #bbb;
+    }
+    .footer h3 {
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #fff;
+    }
+    .footer ul {
+      list-style: none;
+    }
+    .footer ul li {
+      margin-bottom: 10px;
+    }
+    .footer ul li a {
+      color: #bbb;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .footer ul li a:hover {
+      color: #fff;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 18px;
+      color: #bbb;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      color: #fff;
+    }
+    .footer-bottom {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      border-top: 1px solid #333;
+      padding-top: 20px;
+      color: #aaa;
+    }
