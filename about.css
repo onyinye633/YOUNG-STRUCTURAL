@@ -10,8 +10,12 @@ body{
 }
 /* Header */
 .site-header {
-  background: gold; 
-  color: #fff;
+     box-sizing: border-box;
+  background: rgba(255,255,255,0.08); /* almost fully transparent */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px); /* For Safari */
+  border-bottom: 1.5px solid rgba(0,120,212,0.10);
+  color: black;
   padding: 15px 40px; 
   display: flex; 
   justify-content: space-between; 
@@ -20,7 +24,7 @@ body{
 }
 .site-header h1 {font-size: 1.5rem;}
 .site-header nav a {
-  color: #fff; 
+  color: black; 
   margin-left: 20px; 
   text-decoration: none; 
   font-weight: bold; 
@@ -35,7 +39,7 @@ body{
 /* Owner Fullscreen Background */
 .owner-bg {
   height: 500px;
-  background: url("./views/imgprofile.jpg") center/cover no-repeat;
+  background: url("./vide/gen3.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
