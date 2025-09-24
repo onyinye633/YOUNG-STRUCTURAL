@@ -7,32 +7,79 @@
     }
 
     /* Header */
-    .header {
-      display: flex;
-      justify-content: space-between;
+  .header {
+      box-sizing: border-box;
+  background: rgba(255,255,255,0.08); /* almost fully transparent */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px); /* For Safari */
+  border-bottom: 1.5px solid rgba(0,120,212,0.10);
+      color:black;
+      padding: 15px 40px; 
+      display: flex; 
+      justify-content: space-between; 
       align-items: center;
-      padding: 20px 50px;
-      background: #fff;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
     }
-    .header h1 {
-      font-size: 1.5rem;
-      color: #c6a300;
-      font-weight: 700;
+    .header h1 {font-size: 1.5rem;}
+    .header nav a {
+      color: black; 
+      margin-left: 20px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      transition: 0.3s;
     }
-    .nav a {
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: 500;
-      color: #333;
-      transition: color 0.3s ease;
+    .header nav a:hover {color: #00b4d8;}
+    .header nav a.active {
+      color: #00b4d8;
+      border-bottom: 2px solid #00b4d8;
+      padding-bottom: 2px;
     }
-    .nav a:hover {
-      color: #c6a300;
+
+    /* Header */
+    .site-header {
+      background: #023e8a; 
+      color: #fff;
+      padding: 15px 40px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
     }
+    .site-header h1 {font-size: 1.5rem;}
+    .site-header nav a {
+      color: #fff; 
+      margin-left: 20px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      transition: 0.3s;
+    }
+    .site-header nav a:hover {color: #00b4d8;}
+    .site-header nav a.active {
+      color: #00b4d8;
+      border-bottom: 2px solid #00b4d8;
+      padding-bottom: 2px;
+    }
+ /* Hero Section for Services title */
+    .services-hero {
+      background: url("./vide/gen3.jpg") center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .services-hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(198, 162, 0, 0.352); /* gold overlay */
+    }
+    .services-hero h2 {
+      position: relative;
+      color: #fff;
+      font-size: 2.5rem;
+      z-index: 2;
+    }
+
 
     /* Services Section */
     .services {
